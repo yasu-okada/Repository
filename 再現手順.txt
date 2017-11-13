@@ -1,0 +1,10 @@
+【確認手順】
+①Apacheは以下のhttpd.confファイルを置き換える
+②HolloWorldファイルをGlassFishで実行する。
+③Apacheを起動する
+④URL「http://IPアドレス/MyWebApplication」を入力して検索
+⑤画面に「Hello World!」と表示されることを確認
+⑥Apacheを停止する
+⑦URL「http://IPアドレス/MyWebApplication」を入力して検索
+⑧アクセスできないことを確認
+⑨Apacheが起動している時と起動していない時で同一URLのアクセスが拒否されることからApacheを経由していることがわかる。

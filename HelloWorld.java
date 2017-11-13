@@ -23,5 +23,4 @@ public class HelloWorld extends HttpServlet {
 		out.println(
 				"<html><body>Hello World!</body></html>");
 	}
-
 }
